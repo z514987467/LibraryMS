@@ -1,22 +1,23 @@
-<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainMasterPage.master.cs" Inherits="MasterPage_MainMasterPage" %>
+Ôªø<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainMasterPage.master.cs" Inherits="MasterPage_MainMasterPage" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Õº Èπ›π‹¿ÌœµÕ≥ ◊“≥</title>
+    <title>Âõæ‰π¶È¶ÜÁÆ°ÁêÜÁ≥ªÁªüÈ¶ñÈ°µ</title>
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
     <link href="../css.css" rel="stylesheet" type="text/css" />
 </head>
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
     <form runat="server">
-        <div class="header">
+        <div id="wrapper">
+            <div class="header">
             <div class="container">
                 <div class="logo">
-                     <div class="nav-1">
-                        <label style="font-size:0.8em;color:white">Õº Èπ›π‹¿ÌœµÕ≥µƒµ±«∞≤Ÿ◊˜‘±£∫</label>
+                    <div class="nav-1">
+                        <label style="font-size: 0.8em; color: white">Âõæ‰π¶È¶ÜÁÆ°ÁêÜÁ≥ªÁªüÁöÑÂΩìÂâçÊìç‰ΩúÂëòÔºö</label>
                         <asp:Label ID="labAdmin" runat="server" Font-Size="0.8em" ForeColor="White"></asp:Label>
-                         <label style="font-size:0.8em;color:white">£°</label>
+                        <label style="font-size: 0.8em; color: white">ÔºÅ</label>
                         <asp:Label ID="labDate" runat="server" Font-Size="0.8em" ForeColor="White"></asp:Label>&nbsp;
                         <asp:Label ID="labXQ" runat="server" Font-Size="0.8em" ForeColor="White"></asp:Label>
                     </div>
@@ -35,34 +36,34 @@
                             <DynamicSelectedStyle BackColor="#1C5E55" />
                             <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                             <Items>
-                                <asp:MenuItem Text=" ◊“≥" Value=" ◊“≥" NavigateUrl="~/Default.aspx"></asp:MenuItem>
-                                <asp:MenuItem Text="œµÕ≥…Ë÷√" Value="œµÕ≥…Ë÷√">
-                                    <asp:MenuItem Text="Õº Èπ›–≈œ¢" Value="Õº Èπ›–≈œ¢" NavigateUrl="~/SysSet/LibraryInfo.aspx"></asp:MenuItem>
-                                    <asp:MenuItem Text="π‹¿Ì‘±…Ë÷√" Value="π‹¿Ì‘±…Ë÷√" NavigateUrl="~/SysSet/AdminManage.aspx"></asp:MenuItem>
-                                    <asp:MenuItem Text=" Èº‹π‹¿Ì" Value=" Èº‹…Ë÷√" NavigateUrl="~/SysSet/BCaseManage.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="È¶ñÈ°µ" Value="È¶ñÈ°µ" NavigateUrl="~/Default.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Á≥ªÁªüËÆæÁΩÆ" Value="Á≥ªÁªüËÆæÁΩÆ">
+                                    <asp:MenuItem Text="Âõæ‰π¶È¶Ü‰ø°ÊÅØ" Value="Âõæ‰π¶È¶Ü‰ø°ÊÅØ" NavigateUrl="~/SysSet/LibraryInfo.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="ÁÆ°ÁêÜÂëòËÆæÁΩÆ" Value="ÁÆ°ÁêÜÂëòËÆæÁΩÆ" NavigateUrl="~/SysSet/AdminManage.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="‰π¶Êû∂ÁÆ°ÁêÜ" Value="‰π¶Êû∂ËÆæÁΩÆ" NavigateUrl="~/SysSet/BCaseManage.aspx"></asp:MenuItem>
                                 </asp:MenuItem>
-                                <asp:MenuItem Text="∂¡’ﬂπ‹¿Ì" Value="∂¡’ﬂπ‹¿Ì">
-                                    <asp:MenuItem Text="∂¡’ﬂ¿‡–Õπ‹¿Ì" Value="∂¡’ﬂ¿‡–Õπ‹¿Ì" NavigateUrl="~/ReaderManage/RTypeManage.aspx"></asp:MenuItem>
-                                    <asp:MenuItem Text="∂¡’ﬂµµ∞∏π‹¿Ì" Value="∂¡’ﬂµµ∞∏π‹¿Ì" NavigateUrl="~/ReaderManage/ReaderManage.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="ËØªËÄÖÁÆ°ÁêÜ" Value="ËØªËÄÖÁÆ°ÁêÜ">
+                                    <asp:MenuItem Text="ËØªËÄÖÁ±ªÂûãÁÆ°ÁêÜ" Value="ËØªËÄÖÁ±ªÂûãÁÆ°ÁêÜ" NavigateUrl="~/ReaderManage/RTypeManage.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="ËØªËÄÖÊ°£Ê°àÁÆ°ÁêÜ" Value="ËØªËÄÖÊ°£Ê°àÁÆ°ÁêÜ" NavigateUrl="~/ReaderManage/ReaderManage.aspx"></asp:MenuItem>
                                 </asp:MenuItem>
-                                <asp:MenuItem Text="Õº Èπ‹¿Ì" Value="Õº Èπ‹¿Ì">
-                                    <asp:MenuItem Text="Õº È¿‡–Õπ‹¿Ì" Value="Õº È¿‡–Õπ‹¿Ì" NavigateUrl="~/BookManage/BTypeManage.aspx"></asp:MenuItem>
-                                    <asp:MenuItem Text="Õº Èµµ∞∏π‹¿Ì" Value="Õº Èµµ∞∏π‹¿Ì" NavigateUrl="~/BookManage/BookManage.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Âõæ‰π¶ÁÆ°ÁêÜ" Value="Âõæ‰π¶ÁÆ°ÁêÜ">
+                                    <asp:MenuItem Text="Âõæ‰π¶Á±ªÂûãÁÆ°ÁêÜ" Value="Âõæ‰π¶Á±ªÂûãÁÆ°ÁêÜ" NavigateUrl="~/BookManage/BTypeManage.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Âõæ‰π¶Ê°£Ê°àÁÆ°ÁêÜ" Value="Âõæ‰π¶Ê°£Ê°àÁÆ°ÁêÜ" NavigateUrl="~/BookManage/BookManage.aspx"></asp:MenuItem>
                                 </asp:MenuItem>
-                                <asp:MenuItem Text="Õº ÈΩËªπ" Value="Õº ÈΩËªπ">
-                                    <asp:MenuItem Text="Õº ÈΩË‘ƒ" Value="Õº ÈΩË‘ƒ" NavigateUrl="~/BookBRManage/BorrowBook.aspx"></asp:MenuItem>
-                                    <asp:MenuItem Text="Õº ÈπÈªπ" Value="Õº ÈπÈªπ" NavigateUrl="~/BookBRManage/ReturnBook.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Âõæ‰π¶ÂÄüËøò" Value="Âõæ‰π¶ÂÄüËøò">
+                                    <asp:MenuItem Text="Âõæ‰π¶ÂÄüÈòÖ" Value="Âõæ‰π¶ÂÄüÈòÖ" NavigateUrl="~/BookBRManage/BorrowBook.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Âõæ‰π¶ÂΩíËøò" Value="Âõæ‰π¶ÂΩíËøò" NavigateUrl="~/BookBRManage/ReturnBook.aspx"></asp:MenuItem>
                                 </asp:MenuItem>
-                                <asp:MenuItem Text="œµÕ≥≤È—Ø" Value="œµÕ≥≤È—Ø">
-                                    <asp:MenuItem Text="Õº Èµµ∞∏≤È—Ø" Value="Õº Èµµ∞∏≤È—Ø" NavigateUrl="~/SysQuery/BookQuery.aspx"></asp:MenuItem>
-                                    <asp:MenuItem Text="Õº ÈΩË‘ƒ≤È—Ø" Value="Õº ÈΩË‘ƒ≤È—Ø" NavigateUrl="~/SysQuery/BBorrowQuery.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Á≥ªÁªüÊü•ËØ¢" Value="Á≥ªÁªüÊü•ËØ¢">
+                                    <asp:MenuItem Text="Âõæ‰π¶Ê°£Ê°àÊü•ËØ¢" Value="Âõæ‰π¶Ê°£Ê°àÊü•ËØ¢" NavigateUrl="~/SysQuery/BookQuery.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Âõæ‰π¶ÂÄüÈòÖÊü•ËØ¢" Value="Âõæ‰π¶ÂÄüÈòÖÊü•ËØ¢" NavigateUrl="~/SysQuery/BBorrowQuery.aspx"></asp:MenuItem>
                                 </asp:MenuItem>
-                                <asp:MenuItem Text="≈≈––∞Ò" Value="≈≈––∞Ò">
-                                    <asp:MenuItem Text="Õº ÈΩË‘ƒ≈≈––∞Ò" Value="Õº ÈΩË‘ƒ≈≈––∞Ò" NavigateUrl="~/SortManage/BookBorrowSort.aspx"></asp:MenuItem>
-                                    <asp:MenuItem Text="∂¡’ﬂΩË‘ƒ≈≈––∞Ò" Value="∂¡’ﬂΩË‘ƒ≈≈––∞Ò" NavigateUrl="~/SortManage/ReaderBorrowSort.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="ÊéíË°åÊ¶ú" Value="ÊéíË°åÊ¶ú">
+                                    <asp:MenuItem Text="Âõæ‰π¶ÂÄüÈòÖÊéíË°åÊ¶ú" Value="Âõæ‰π¶ÂÄüÈòÖÊéíË°åÊ¶ú" NavigateUrl="~/SortManage/BookBorrowSort.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="ËØªËÄÖÂÄüÈòÖÊéíË°åÊ¶ú" Value="ËØªËÄÖÂÄüÈòÖÊéíË°åÊ¶ú" NavigateUrl="~/SortManage/ReaderBorrowSort.aspx"></asp:MenuItem>
                                 </asp:MenuItem>
-                                <asp:MenuItem Text="∏¸∏ƒø⁄¡Ó" Value="∏¸∏ƒø⁄¡Ó" NavigateUrl="~/Common/ChanagePwd.aspx"></asp:MenuItem>
-                                <asp:MenuItem Text="ÕÀ≥ˆœµÕ≥" Value="ÕÀ≥ˆœµÕ≥"></asp:MenuItem>
+                                <asp:MenuItem Text="Êõ¥ÊîπÂè£‰ª§" Value="Êõ¥ÊîπÂè£‰ª§" NavigateUrl="~/Common/ChanagePwd.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="ÈÄÄÂá∫Á≥ªÁªü" Value="ÈÄÄÂá∫Á≥ªÁªü"></asp:MenuItem>
                             </Items>
                             <StaticHoverStyle BackColor="#666666" ForeColor="White" />
                         </asp:Menu>
@@ -87,12 +88,18 @@
                         </asp:ContentPlaceHolder>
                     </td>
                 </tr>
-                <tr>
-                    <td style="width: 776px; background-image: url(../images/index_14.gif); height: 66px;"></td>
-                </tr>
             </table>
         </div>
-
+        </div>
+        <div class="foot">
+            <div style="width:1000px;margin:0 auto">
+                <hr />
+            </div>
+            <p style="text-align:center">
+                ÁâàÊùÉÊâÄÊúâ ¬© Êª®Â∑ûÂ≠¶Èô¢&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                Âú∞ÂùÄÔºöÂ±±‰∏úÁúÅÊª®Â∑ûÂ∏ÇÈªÑÊ≤≥‰∫îË∑Ø391Âè∑ &nbsp;ÈÇÆÁºñÔºö256600<br>
+            </p>
+        </div>
     </form>
 </body>
 </html>

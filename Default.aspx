@@ -17,7 +17,7 @@
             <tr>
               <td height="200" background="images/tu shu pai hang2.gif">
               <asp:GridView  ID="gvBookSort" runat="server" AutoGenerateColumns="False" Font-Size="9pt" HorizontalAlign="Center"
-                    PageSize="5" Width="678px" OnRowDataBound="gvBookSort_RowDataBound">
+                    PageSize="5" Width="678px" OnRowDataBound="gvBookSort_RowDataBound" CssClass="table">
                     <Columns>
                         <asp:BoundField HeaderText="排名" />
                         <asp:BoundField DataField="bookcode" HeaderText="图书条形码" ReadOnly="True" />
@@ -48,7 +48,7 @@
               </tr>
               <tr>
                 <td height="200" background="images/tu shu pai hang2.gif"><asp:GridView ID="gvReaderSort" runat="server" AutoGenerateColumns="False" Font-Size="9pt" HorizontalAlign="Center"
-                    PageSize="5" Width="678px" OnRowDataBound="gvReaderSort_RowDataBound">
+                    PageSize="5" Width="678px" OnRowDataBound="gvReaderSort_RowDataBound" CssClass="table">
                     <Columns>
                         <asp:BoundField HeaderText="排名" />
                         <asp:BoundField DataField="id" HeaderText="读者编号" />
