@@ -1,0 +1,82 @@
+* {
+    font-family: "Microsoft Yahei";
+}
+
+.daohang1 {
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.daohanglianjie:link {
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.daohanglianjie:visited {
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.daohanglianjie:hover {
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 16px;
+    color: #FD9500;
+    text-decoration: none;
+}
+
+.daohanglianjie:active {
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 16px;
+    color: #FD9500;
+    text-decoration: none;
+}
+
+.waikuang {
+    border: #DFEAF2 1px solid;
+}
+
+/*布局*/
+.header {
+    background: url(images/nav.jpg) repeat-x;
+    height: 177px;
+    width: 100%;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    background: url(images/logo.jpg) no-repeat;
+    height: 177px;
+    position: relative;
+}
+
+.menu {
+    margin: 0 auto;
+    bottom: 0px;
+    width: 900px;
+}
+
+.nav-1 {
+    text-align: right;
+    height: 35px;
+    vertical-align: middle;
+    line-height: 35px;
+    padding-right:5px;
+}
+
+.nav-2 {
+    height: 110px;
+}
