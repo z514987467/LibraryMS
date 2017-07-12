@@ -41,6 +41,7 @@ public partial class SysSet_AddAdmin : System.Web.UI.Page
     }
     protected void btnCancel_Click(object sender, EventArgs e)
     {
+        Response.Redirect("AdminManage.aspx");
         txtName.Text = txtPwd.Text = txtSPwd.Text = string.Empty;
     }
 }

@@ -75,7 +75,7 @@
                   </label><label>
                     <asp:Button ID="btnSave" runat="server" Text="保存" OnClick="btnSave_Click" />
                       &nbsp;&nbsp;
-                    <asp:Button ID="btnCancel" runat="server" Text="取消" OnClick="btnCancel_Click" CausesValidation="False" />
+                    <asp:Button ID="btnCancel" runat="server" Text="重置" OnClick="btnCancel_Click" CausesValidation="False" />
                   </label>
                     </td>
                   <td align="center">&nbsp;</td>

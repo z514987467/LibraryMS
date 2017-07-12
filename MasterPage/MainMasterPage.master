@@ -27,7 +27,7 @@
                     </div>
                     <div class="menu">
                         <asp:Menu ID="menuNav" runat="server" DynamicHorizontalOffset="2" Width="100%"
-                            Font-Names="Microsoft Yahei" Font-Size="1em" ForeColor="White" Orientation="Horizontal"
+                            Font-Names="Microsoft Yahei" Font-Size="1em" ForeColor="White" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"
                             StaticSubMenuIndent="10px" OnMenuItemClick="menuNav_MenuItemClick" DynamicPopOutImageTextFormatString="">
                             <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                             <DynamicHoverStyle BackColor="#666666" ForeColor="White" />

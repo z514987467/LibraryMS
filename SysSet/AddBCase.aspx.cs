@@ -38,6 +38,7 @@ public partial class SysSet_AddBCase : System.Web.UI.Page
     }
     protected void btnCancel_Click(object sender, EventArgs e)
     {
+        Response.Redirect("BCaseManage.aspx");
         txtBCaseName.Text = string.Empty;
     }
 }
