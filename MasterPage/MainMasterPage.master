@@ -38,7 +38,7 @@
                             <Items>
                                 <asp:MenuItem Text="首页" Value="首页" NavigateUrl="~/Default.aspx"></asp:MenuItem>
                                 <asp:MenuItem Text="系统设置" Value="系统设置">
-                                    <asp:MenuItem Text="图书馆信息" Value="图书馆信息" NavigateUrl="~/SysSet/LibraryInfo.aspx"></asp:MenuItem>
+                                    <%--<asp:MenuItem Text="图书馆信息" Value="图书馆信息" NavigateUrl="~/SysSet/LibraryInfo.aspx"></asp:MenuItem>--%>
                                     <asp:MenuItem Text="管理员设置" Value="管理员设置" NavigateUrl="~/SysSet/AdminManage.aspx"></asp:MenuItem>
                                     <asp:MenuItem Text="书架管理" Value="书架设置" NavigateUrl="~/SysSet/BCaseManage.aspx"></asp:MenuItem>
                                 </asp:MenuItem>
