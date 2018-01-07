@@ -87,7 +87,7 @@
     <!-- END LOGIN -->
     <!-- BEGIN COPYRIGHT -->
     <div class="copyright">
-        2014 &copy; Blue sky.
+        2017 &copy; Blue sky.
     </div>
     <!-- END COPYRIGHT -->
     <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
